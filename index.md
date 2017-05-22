@@ -5,4 +5,34 @@
 layout: slate
 ---
 
-Hello World.
+## About Me ##
+
+* CV | LinkedIn
+
+
+## Projects ##
+
+| [Bash](#bash) | [Classes](#classes) | [Machine Learning](#machine-learning) | [Python](#python) | [Swift](#swift) |
+
+### Bash ###
+
+* freshen-up
+
+### Classes ###
+
+* Stanford iOS 10
+
+### Machine Learning ###
+
+* ml-notebooks
+* misc ml
+
+### Python ###
+
+* clean-messages
+* ml-notebooks
+
+### Swift ###
+
+* metrocard buddy
+
