@@ -7,12 +7,14 @@ layout: slate
 
 ## About Me ##
 
-* CV | LinkedIn
+{% include linkedin_profile_badge.html vanity="aditya-bhat-829b4720" name="Aditya Bhat" %}
+
+[//]: # (TODO add a CV link / document)
 
 
 ## Projects ##
 
-| [Bash](#bash) | [Classes](#classes) | [Machine Learning](#machine-learning) | [Python](#python) | [Swift](#swift) |
+[Bash](#bash) &#124; [Classes](#classes) &#124; [Machine Learning](#machine-learning) &#124; [Python](#python) &#124; [Swift](#swift)
 
 ### Bash ###
 
