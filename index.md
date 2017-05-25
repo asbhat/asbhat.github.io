@@ -7,8 +7,10 @@ layout: slate
 {% include linkedin_profile_badge.html vanity="aditya-bhat-829b4720" name="Aditya Bhat" %}
 
 [//]: # (TODO add a CV link / document)
-[//]: # (TODO add hackerank logo & link to my profile)
 
+<a href="https://www.hackerrank.com/asbhat" title="Aditya on HackerRank">
+    <img src="/assets/images/HackerRank_logo.svg" style="width: 50px">HackerRank
+</a>
 
 ## Projects ##
 
