@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+echo "\x1B[32m------> Updating the bundle...\x1B[0m"
+scripts/update 2>&1 > /dev/null
+
+bundle exec jekyll serve
