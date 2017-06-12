@@ -1,0 +1,14 @@
+{% capture img_path %}/assets/repo-images/{{ include.name }}.png{% endcapture %}
+{% assign img_exists = site.static_files | where: "path", img_path | first %}
+<li class="repo-card">
+  <div class="repo-info{% if img_exists %} has-image{% endif %}" >
+    <h5>{{ include.name }}</h5>
+    <span><a href="{{ include.github_link }}">GitHub</a>{% if include.website_link and include.website_link != "" %} &middot; <a href="{{ include.website_link }}">Website</a>{% endif %}</span>
+    <p> {{ include.description }} </p>
+  </div>
+  {% if img_exists %}
+  <div>
+    <img src="{{img_path}}" />
+  </div>
+  {% endif %}
+</li>

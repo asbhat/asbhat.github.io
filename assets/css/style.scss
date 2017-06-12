@@ -10,3 +10,85 @@ Adjusting Theme Styles
 a:hover, a:focus {
     font-weight: bold;
 }
+
+.inner {
+    max-width: 800px;
+}
+
+/*******************************************************************************
+Repo List and Card Styles
+*******************************************************************************/
+
+@mixin multiLineEllipsis($lineHeight: 21px, $lineCount: 4, $bgColor: #f2f2f2) {
+    overflow: hidden;
+    line-height: $lineHeight;
+    max-height: $lineHeight * $lineCount;
+    padding-right: 8px;
+    margin-right: 8px;
+    &:before {
+        content: '...';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 1em;
+        height: 1em;
+        margin-top: 0.2em;
+        background: $bgColor;
+    }
+}
+
+.repo-list {
+    list-style-type: none;
+    padding: 2px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.repo-card {
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.24);
+    box-shadow: 0 0 2px rgba(0,0,0,0.24);
+
+    width: 30%;
+    padding: 8px;
+    position: relative;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.repo-card img {
+    max-width: 100%;
+    padding: 0px;
+    border: 0px;
+    z-index: 1;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.repo-card:hover img {
+    opacity: 0
+}
+
+.repo-info {
+    list-style-type: none;
+    float: left;
+}
+
+.repo-info p {
+    padding-right: 8px;
+}
+
+.has-image.repo-info p {
+    @include multiLineEllipsis();
+    position: absolute;
+}

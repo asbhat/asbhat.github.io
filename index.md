@@ -2,41 +2,58 @@
 layout: slate
 ---
 
-## About Me ##
+
+
+
+
+
+
+## About ##
 
 {% include linkedin_profile_badge.html vanity="aditya-bhat-829b4720" name="Aditya Bhat" %}
 
-[//]: # (TODO add a CV link / document)
+{% comment %} TODO add a CV link / document {% endcomment %}
 
 <a href="https://www.hackerrank.com/asbhat" title="Aditya on HackerRank">
     <img src="/assets/images/HackerRank_logo.svg" style="width: 50px">HackerRank
 </a>
 
+{% comment %} Create an array of capitalized, unique, and sorted tags {% endcomment %}
+{% assign all_tags = "" | split: "" %}
+{% for repo in site.data.repositories %}
+    {% for tag in repo.tags %}
+        {% capture cap_tag %}{{tag | capitalize}}{% endcapture %}
+        {% assign all_tags = all_tags | push: cap_tag %}
+    {% endfor %}
+{% endfor %}
+{% assign all_uniq_tags = (all_tags | uniq | sort) %}
+
+{% comment %} Create the string and links for tag/header navigation {% endcomment %}
+{% comment %} TODO fix the links so it actually strips \W characters and trailing '-' {% endcomment %}
+{% assign tag_nav = "" | split: "" %}
+{% for tag in all_uniq_tags %}
+    {% capture tag_link %}<a href="#{{tag | lstrip | downcase | replace: " ", "-"}}">{{tag}}</a>{% endcapture %}
+    {% assign tag_nav = tag_nav | push: tag_link %}
+{% endfor %}
+
+{% assign sorted_repos = (site.data.repositories | sort: "name") %}
+
 ## Projects ##
+{{tag_nav | join: " &#124; "}}
 
-[Bash](#bash) &#124; [Classes](#classes) &#124; [Machine Learning](#machine-learning) &#124; [Python](#python) &#124; [Swift](#swift)
+{% for tag in all_uniq_tags %}
+### {{tag}} ###
 
-### Bash ###
+{% include repo_list_start.html %}
+{% for repo in sorted_repos %}
+    {% if repo.tags contains tag %}
+        {% assign github_repo = (site.github.public_repositories | where: "name", repo.name | first) %}
+        {% include repo_card.html name=github_repo.name github_link=github_repo.html_url website_link=github_repo.homepage description=github_repo.description %}
+    {% endif %}
+{% endfor %}
+{% include repo_list_end.html %}
 
-* freshen-up
+{% endfor %}
 
-### Classes ###
-
-* Stanford iOS 10
-
-### Machine Learning ###
-
-* ml-notebooks
-* misc ml
-
-### Python ###
-
-* clean-messages
-* ml-notebooks
-
-### Swift ###
-
-* metrocard buddy
-
-[//]: # (TODO include Contributions to Other's Projects section)
-[//]: # (Have it link to filtered contributions by me)
+{% comment %} TODO include Contributions to Other's Projects section {% endcomment %}
+{% comment %}   have it link to filtered contributions by me {% endcomment %}

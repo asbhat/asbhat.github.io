@@ -1,0 +1,34 @@
+[
+    {
+        "name" : "freshen-up",
+        "tags" : ["Shell"]
+    },
+    {
+        "name" : "mac-clean-messages",
+        "tags" : ["Python"]
+    },
+    {
+        "name" : "data-science-class",
+        "tags" : ["Python"]
+    },
+    {
+        "name" : "ml-notebooks",
+        "tags" : ["Python"]
+    },
+    {
+        "name" : "metrocard-buddy",
+        "tags" : ["Swift"]
+    },
+    {
+        "name" : "stanford-ios10-apps",
+        "tags" : ["Swift"]
+    },
+    {
+        "name" : "stanford-ios9-apps",
+        "tags" : ["Swift"]
+    },
+    {
+        "name" : "stanford-ios8-apps",
+        "tags" : ["Swift"]
+    }
+]
