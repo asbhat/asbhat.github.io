@@ -3,6 +3,26 @@
 
 @import "{{ site.theme }}";
 
+/*
+
+    style.scss
+
+    Copyright © 2017 Aditya Bhat. All rights reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+*/
+
 /*******************************************************************************
 Adjusting Theme Styles
 *******************************************************************************/
@@ -19,6 +39,7 @@ a:hover, a:focus {
 Repo List and Card Styles
 *******************************************************************************/
 
+// stolen from http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/
 @mixin multiLineEllipsis($lineHeight: 21px, $lineCount: 4, $bgColor: #f2f2f2) {
     overflow: hidden;
     line-height: $lineHeight;
