@@ -42,10 +42,9 @@ layout: slate
 {% assign all_uniq_tags = (all_tags | uniq | sort) %}
 
 {% comment %} Create the string and links for tag/header navigation {% endcomment %}
-{% comment %} TODO fix the links so it actually strips \W characters and trailing '-' {% endcomment %}
 {% assign tag_nav = "" | split: "" %}
 {% for tag in all_uniq_tags %}
-    {% capture tag_link %}<a href="#{{tag | lstrip | downcase | replace: " ", "-"}}">{{tag}}</a>{% endcapture %}
+    {% capture tag_link %}<a href="#{{tag | slugify}}">{{tag}}</a>{% endcapture %}
     {% assign tag_nav = tag_nav | push: tag_link %}
 {% endfor %}
 
@@ -55,7 +54,7 @@ layout: slate
 {{tag_nav | join: " &#124; "}}
 
 {% for tag in all_uniq_tags %}
-### {{tag}} ###
+### {{tag}} ### {#{{tag|slugify}}}
 
 {% include repo_list_start.html %}
 {% for repo in sorted_repos %}
