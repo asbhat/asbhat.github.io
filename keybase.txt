@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/asbhat
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://asbhat.github.io
+  * I am asbhat (https://keybase.io/asbhat) on keybase.
+  * I have a public key ASACGrY3cx49ninEvcTIlFCWFTlN7I2vaxuwHs1NQYZGPAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120021ab637731e3d9e29c4bdc4c894509615394dec8daf6b1bb01ecd4d4186463c0a",
+      "host": "keybase.io",
+      "kid": "0120021ab637731e3d9e29c4bdc4c894509615394dec8daf6b1bb01ecd4d4186463c0a",
+      "uid": "b508bb6507b86bd26aff33742e8bf619",
+      "username": "asbhat"
+    },
+    "merkle_root": {
+      "ctime": 1502673425,
+      "hash": "7a556a20789e00b9026e783fa9378896ac2e540d91553f03415368a1cbf0c66eeb76bcb69854c3561331de4172dc288b3b23098f0e0476d003a362dfa3040845",
+      "hash_meta": "b96ef702737674cb883d1196b2bf5e4f78873a34fe7d428a46d18f33eb58ad85",
+      "seqno": 1324049
+    },
+    "service": {
+      "hostname": "asbhat.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.27"
+  },
+  "ctime": 1502673440,
+  "expire_in": 504576000,
+  "prev": "91e7b27e9bc552b03d41c054189c603c020773cdfcd927c93c2cef4ef5b80e95",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgAhq2N3MePZ4pxL3EyJRQlhU5TeyNr2sbsB7NTUGGRjwKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMDIxYWI2Mzc3MzFlM2Q5ZTI5YzRiZGM0Yzg5NDUwOTYxNTM5NGRlYzhkYWY2YjFiYjAxZWNkNGQ0MTg2NDYzYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDIxYWI2Mzc3MzFlM2Q5ZTI5YzRiZGM0Yzg5NDUwOTYxNTM5NGRlYzhkYWY2YjFiYjAxZWNkNGQ0MTg2NDYzYzBhIiwidWlkIjoiYjUwOGJiNjUwN2I4NmJkMjZhZmYzMzc0MmU4YmY2MTkiLCJ1c2VybmFtZSI6ImFzYmhhdCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwMjY3MzQyNSwiaGFzaCI6IjdhNTU2YTIwNzg5ZTAwYjkwMjZlNzgzZmE5Mzc4ODk2YWMyZTU0MGQ5MTU1M2YwMzQxNTM2OGExY2JmMGM2NmVlYjc2YmNiNjk4NTRjMzU2MTMzMWRlNDE3MmRjMjg4YjNiMjMwOThmMGUwNDc2ZDAwM2EzNjJkZmEzMDQwODQ1IiwiaGFzaF9tZXRhIjoiYjk2ZWY3MDI3Mzc2NzRjYjg4M2QxMTk2YjJiZjVlNGY3ODg3M2EzNGZlN2Q0MjhhNDZkMThmMzNlYjU4YWQ4NSIsInNlcW5vIjoxMzI0MDQ5fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImFzYmhhdC5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNyJ9LCJjdGltZSI6MTUwMjY3MzQ0MCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI5MWU3YjI3ZTliYzU1MmIwM2Q0MWMwNTQxODljNjAzYzAyMDc3M2NkZmNkOTI3YzkzYzJjZWY0ZWY1YjgwZTk1Iiwic2Vxbm8iOjEwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQO1vdWM3NrkXNyJgjfjUu229Bca3qQHVgEE5xYNT9d88yNxZTPBBrXlb4hyGBoWSNGmEQHGdZcFVX91ipVLjHg6oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAVM71ePjbXChkMskCCATtflWdp+A7ZW22ObVj2ojK6m6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/asbhat
+
+==================================================================
