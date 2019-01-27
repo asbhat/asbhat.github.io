@@ -11,7 +11,7 @@ google_analytics: UA-100975740-1
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-slate
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

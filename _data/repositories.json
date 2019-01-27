@@ -16,6 +16,14 @@
         "tags" : ["Python"]
     },
     {
+        "name" : "ios-apprentice",
+        "tags" : ["Swift"]
+    },
+    {
+        "name" : "stanford-ios11-apps",
+        "tags" : ["Swift"]
+    },
+    {
         "name" : "metrocard-buddy",
         "tags" : ["Swift"]
     },

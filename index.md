@@ -28,7 +28,11 @@ layout: slate
 {% comment %} TODO add a CV link / document {% endcomment %}
 
 <a href="https://www.hackerrank.com/asbhat" title="Aditya on HackerRank">
-    <img src="/assets/images/HackerRank_logo.svg" style="width: 50px">HackerRank
+    <img src="/assets/images/HackerRank_logo.svg" style="height: 50px">HackerRank
+</a>
+<br>
+<a href="https://leetcode.com/asbhat/" title="Aditya on LeetCode">
+    <img src="/assets/images/LeetCode_light_logo.png" style="height: 50px">
 </a>
 
 {% comment %} Create an array of capitalized, unique, and sorted tags {% endcomment %}
@@ -39,7 +43,7 @@ layout: slate
         {% assign all_tags = all_tags | push: cap_tag %}
     {% endfor %}
 {% endfor %}
-{% assign all_uniq_tags = (all_tags | uniq | sort) %}
+{% assign all_uniq_tags = all_tags | uniq | sort %}
 
 {% comment %} Create the string and links for tag/header navigation {% endcomment %}
 {% assign tag_nav = "" | split: "" %}
@@ -48,7 +52,7 @@ layout: slate
     {% assign tag_nav = tag_nav | push: tag_link %}
 {% endfor %}
 
-{% assign sorted_repos = (site.data.repositories | sort: "name") %}
+{% assign sorted_repos = site.data.repositories | sort: "name" %}
 
 ## Projects ##
 {{tag_nav | join: " &#124; "}}
@@ -59,7 +63,7 @@ layout: slate
 {% include repo_list_start.html %}
 {% for repo in sorted_repos %}
     {% if repo.tags contains tag %}
-        {% assign github_repo = (site.github.public_repositories | where: "name", repo.name | first) %}
+        {% assign github_repo = site.github.public_repositories | where: "name", repo.name | first %}
         {% include repo_card.html name=github_repo.name github_link=github_repo.html_url website_link=github_repo.homepage description=github_repo.description %}
     {% endif %}
 {% endfor %}
