@@ -50,7 +50,7 @@ layout: slate
 
 {% assign sorted_repos = site.data.repositories | sort: "name" %}
 
-## Projects ##
+## Old Projects ##
 {{tag_nav | join: " &#124; "}}
 
 {% for tag in all_uniq_tags %}
