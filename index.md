@@ -27,12 +27,8 @@ layout: slate
 
 {% comment %} TODO add a CV link / document {% endcomment %}
 
-<a href="https://www.hackerrank.com/asbhat" title="Aditya on HackerRank">
-    <img src="/assets/images/HackerRank_logo.svg" style="height: 50px">HackerRank
-</a>
-<br>
-<a href="https://leetcode.com/asbhat/" title="Aditya on LeetCode">
-    <img src="/assets/images/LeetCode_light_logo.png" style="height: 50px">
+<a href="https://www.mobygames.com/developer/sheet/view/developerId,1092386" title="Aditya on MobyGames">
+    <img src="/assets/images/mobygames-logo.png" style="height: 50px">
 </a>
 
 {% comment %} Create an array of capitalized, unique, and sorted tags {% endcomment %}
