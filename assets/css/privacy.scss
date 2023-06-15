@@ -3,7 +3,7 @@
 
 /*
 
-    riceballdb-style.scss
+    privacy-style.scss
 
     Copyright © 2023 Aditya Bhat. All rights reserved.
 
@@ -38,25 +38,15 @@ body {
     margin: auto;
     line-height: 1.5;
 }
-.page-header {
-    text-align: center;
-    display: block;
-}
-.project-description {
-    opacity: 0.7;
-    font-size: 1.6rem;
-    font-weight: normal;
-}
 
-footer {
-    font-size: 1.4rem;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    a {
-        margin-left: 1rem;
-        margin-right: 1rem;
+.page-header {
+    display: block;
+    img {
+        width: 10rem;
     }
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 64em) {

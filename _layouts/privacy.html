@@ -8,7 +8,7 @@
     <meta name="description" content="{{ page.title | default: site.github.repository_name }} : {{ page.description | default: site.github.project_tagline }}">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/riceballdb-style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/privacy.css?v=' | append: site.github.build_revision | relative_url }}">
     <!-- TODO update the favicon! -->
     <link rel="shortcut icon" type="image/x-icon" href="/assets/public/favicon.ico">
 
@@ -19,17 +19,11 @@
 
     <!-- HEADER -->
     <header class="page-header">
+      <img src="/assets/images/privacy.svg" alt="Privacy Policy">
       <h1>{{ page.title }}</h1>
-      <h2 class="project-description">{{ page.description }}</h2>
     </header>
 
-
     {{ content }}
-
-
-  <footer>
-    <span><a href="about/terms.html">Terms of Service</a> &middot; <a href="about/privacy.html">Privacy Policy</a></span>
-  </footer>
 
   </body>
 
