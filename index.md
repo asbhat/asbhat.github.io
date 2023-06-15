@@ -50,6 +50,11 @@ layout: slate
 
 {% assign sorted_repos = site.data.repositories | sort: "name" %}
 
+## New Projects ##
+[RiceballDb](/riceballdb/index.html)
+
+_Coming soon!_
+
 ## Old Projects ##
 {{tag_nav | join: " &#124; "}}
 
