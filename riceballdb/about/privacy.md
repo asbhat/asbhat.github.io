@@ -5,7 +5,7 @@ description: What happens to your data
 ---
 
 RiceballDb does not sell or rent your data.<br>
-RiceballDb does not automatically collect or store any of your data.
+RiceballDb does not automatically collect or store any of your data off of your device.
 
 If you voluntarily choose to share data with RiceballDb because the application crashed (sorry!)
 or in a bug report (also, sorry!), that information is only used to fix the issue.
@@ -14,7 +14,7 @@ RiceballDb uses the [AniList API](https://anilist.gitbook.io/anilist-apiv2-docs/
 For example, any time you search for a show, or save a movie to one of your lists, or update your chapters read,
 RiceballDb sends a message to AniList's servers on your behalf.
 AniList is then able to use that data as outlined in [AniList's Privacy Policy](https://anilist.co/terms).
-This is the same as using the AniList website.
+AniList would receive the same information if you were using the anilist.co website.
 
 By using RiceballDb, you're subject to [AniList's Privacy Policy](https://anilist.co/terms) as well as any other services or websites you use or visit.
 
