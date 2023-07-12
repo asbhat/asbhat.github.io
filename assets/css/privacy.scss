@@ -32,10 +32,14 @@
     // transition: all 0.5s ease;
 }
 
+html {
+    margin: auto 3em;
+}
+
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.6rem; /* defaults to 16px */
-    margin: 2em;
+    margin: auto;
     line-height: 1.5;
 }
 
