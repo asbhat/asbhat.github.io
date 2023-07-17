@@ -31,46 +31,13 @@ layout: slate
     <img src="/assets/images/mobygames-logo.png" style="height: 50px">
 </a>
 
-{% comment %} Create an array of capitalized, unique, and sorted tags {% endcomment %}
-{% assign all_tags = "" | split: "" %}
-{% for repo in site.data.repositories %}
-    {% for tag in repo.tags %}
-        {% capture cap_tag %}{{tag | capitalize}}{% endcapture %}
-        {% assign all_tags = all_tags | push: cap_tag %}
-    {% endfor %}
-{% endfor %}
-{% assign all_uniq_tags = all_tags | uniq | sort %}
-
-{% comment %} Create the string and links for tag/header navigation {% endcomment %}
-{% assign tag_nav = "" | split: "" %}
-{% for tag in all_uniq_tags %}
-    {% capture tag_link %}<a href="#{{tag | slugify}}">{{tag}}</a>{% endcapture %}
-    {% assign tag_nav = tag_nav | push: tag_link %}
-{% endfor %}
-
-{% assign sorted_repos = site.data.repositories | sort: "name" %}
-
-## New Projects ##
-[RiceballDb](/riceballdb/index.html)
-
-_Coming soon!_
-
-## Old Projects ##
-{{tag_nav | join: " &#124; "}}
-
-{% for tag in all_uniq_tags %}
-### {{tag}} ### {#{{tag|slugify}}}
-
+## iOS Applications ##
 {% include repo_list_start.html %}
-{% for repo in sorted_repos %}
-    {% if repo.tags contains tag %}
-        {% assign github_repo = site.github.public_repositories | where: "name", repo.name | first %}
-        {% include repo_card.html name=github_repo.name github_link=github_repo.html_url website_link=github_repo.homepage description=github_repo.description %}
-    {% endif %}
-{% endfor %}
+{% include repo_card.html name="RiceballDb" github_link="" website_link="/riceballdb/index.html" description="<i>Currently in beta.</i><br>Discover, save, and track your consumption of media." %}
 {% include repo_list_end.html %}
 
-{% endfor %}
+<br><br>
+## [Old Projects](/oldprojects/index.html) ##
 
 {% comment %} TODO include Contributions to Other's Projects section {% endcomment %}
 {% comment %}   have it link to filtered contributions by me {% endcomment %}

@@ -1,7 +1,7 @@
 ---
 layout: riceballdb
 title: RiceballDb
-description: Discover and keep track of your anime and manga
+description: Discover, save, and track your anime and manga progress.
 ---
 
 {% comment %}
@@ -23,4 +23,4 @@ description: Discover and keep track of your anime and manga
 
 {% endcomment %}
 
-_Coming soon!_
+_[Join the beta!](https://testflight.apple.com/join/Maejdsvw)_
