@@ -1,7 +1,7 @@
 ---
 layout: riceballdb
 title: RiceballDb
-description: Discover, save, and track your anime and manga progress.
+description: Discover, save, and track your anime and manga.
 ---
 
 {% comment %}
@@ -24,3 +24,23 @@ description: Discover, save, and track your anime and manga progress.
 {% endcomment %}
 
 _[Join the beta!](https://testflight.apple.com/join/Maejdsvw)_
+
+### Discover New Anime and Manga ###
+* Looking for new content? Browse anime airing new episodes and manga publishing new chapters.
+* Want to binge a series? See what finished airing last season.
+* Tired of playing catch up? Take a peek at what's scheduled for next season.
+* Not sure of the chronological order of a series? Or want to see if your favorite manga got turned into an anime? Check out the Related section.
+* Feel like something new but familiar? See what's Recommended for a specific anime or manga.
+* Search all anime and manga in the AniList database by title.
+
+### Save Anime and Manga ###
+* Save anime or manga to one of your lists with the tap of a `+` button.
+* Get notified when new episodes air for saved shows.
+
+### Track Your Progress ###
+* Keep track of what you've already watched and read, down to the episode and chapter.
+* Rate anime or manga by tapping on the average score.
+* Tap 'Stream...' or 'Read...' to visit your favorite external content providers.¹
+* Head to your profile to see your recent activity and overall stats.
+
+¹ RiceballDb is not a streaming service. RiceballDb does have external links for some content to unaffiliated streaming services and content providers.
