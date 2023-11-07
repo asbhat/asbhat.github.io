@@ -36,6 +36,11 @@ layout: slate
 {% include repo_card.html name="RiceballDb" github_link="" website_link="/riceballdb/index.html" description="<i>Currently in beta.</i><br>Discover, save, and track your consumption of media." %}
 {% include repo_list_end.html %}
 
+## Sample Game Slices ##
+{% include repo_list_start.html %}
+{% include repo_card.html name="Crashy Bird" github_link="https://github.com/asbhat/sample-game-slices/tree/main/Crashy%20Bird" website_link="" description="Flying through pipes with the poorest of ease." %}
+{% include repo_list_end.html %}
+
 <br><br>
 ## [Old Projects](/oldprojects/index.html) ##
 
