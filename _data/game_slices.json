@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Tiny Creatures",
+        "description": "Battle tiny creatures in the tall grass.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Tiny%20Creatures"
+    },
+    {
+        "name": "Dungeon Boy",
+        "description": "Swing a sword and throw some pots.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Dungeon%20Boy"
+    },
+    {
+        "name": "Breakout",
+        "description": "Breaking bricks by paddling balls.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Breakout"
+    },
+    {
+        "name": "Crashy Bird",
+        "description": "Flying through pipes with the poorest of ease.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Crashy%20Bird"
+    },
+    {
+        "name": "Match 3",
+        "description": "Line 'em up and make 'em disappear.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Match%203"
+    },
+    {
+        "name": "Jump Man",
+        "description": "Collect gems, squash snails, unlock bricks, and capture flags.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Jump%20Man"
+    },
+    {
+        "name": "Angry Aliens",
+        "description": "Circle squashes the square.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Angry%20Aliens"
+    }
+]

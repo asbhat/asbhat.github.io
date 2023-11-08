@@ -38,7 +38,9 @@ layout: slate
 
 ## Sample Game Slices ##
 {% include repo_list_start.html %}
-{% include repo_card.html name="Crashy Bird" github_link="https://github.com/asbhat/sample-game-slices/tree/main/Crashy%20Bird" website_link="" description="Flying through pipes with the poorest of ease." %}
+{% for game_slice in site.data.game_slices %}
+    {% include repo_card.html name=game_slice.name github_link=game_slice.github_link website_link=game_slice.website_link description=game_slice.description %}
+{% endfor %}
 {% include repo_list_end.html %}
 
 <br><br>
