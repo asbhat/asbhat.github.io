@@ -1,5 +1,10 @@
 [
     {
+        "name": "Helicopter",
+        "description": "Dodge buildings and planes and collect coins.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Helicopter"
+    },
+    {
         "name": "Tiny Creatures",
         "description": "Battle tiny creatures in the tall grass.",
         "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Tiny%20Creatures"
