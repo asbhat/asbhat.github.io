@@ -26,12 +26,12 @@
     },
     {
         "name": "Jump Man",
-        "description": "Collect gems, squash snails, unlock bricks, and capture flags.",
+        "description": "Jump to collect gems, squash snails, unlock bricks, and capture flags.",
         "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Jump%20Man"
     },
     {
         "name": "Angry Aliens",
-        "description": "Circle squashes the square.",
+        "description": "Circle alien squashes the square alien.",
         "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Angry%20Aliens"
     }
 ]
