@@ -1,5 +1,15 @@
 [
     {
+        "name": "Pipe Dreams",
+        "description": "A first-person 3D jump puzzle of modest proportions.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Pipe%20Dreams"
+    },
+    {
+        "name": "Haunted Mazes",
+        "description": "Explore mazes, find coins, avoid pitfalls.",
+        "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Haunted%20Mazes"
+    },
+    {
         "name": "Helicopter",
         "description": "Dodge buildings and planes and collect coins.",
         "github_link": "https://github.com/asbhat/sample-game-slices/tree/main/Helicopter"
