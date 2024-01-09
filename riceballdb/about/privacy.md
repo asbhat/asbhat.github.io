@@ -18,5 +18,7 @@ AniList would receive the same information if you were using the anilist.co webs
 
 By using RiceballDb, you're subject to [AniList's Privacy Policy](https://anilist.co/terms) as well as any other services or websites you use or visit.
 
+If you created an AniList account, you can sign in and permanently delete your account at any time by visiting the [AniList Account Settings](https://anilist.co/settings/account) page.
+
 If you have any questions or concerns about RiceballDb's privacy policy,
 feel free to send an email to: [riceball.db@gmail.com](mailto:riceball.db@gmail.com).
