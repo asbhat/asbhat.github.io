@@ -33,7 +33,7 @@ layout: slate
 
 ## iOS Applications ##
 {% include repo_list_start.html %}
-{% include repo_card.html name="RiceballDb" github_link="" website_link="/riceballdb/index.html" description="<i>Currently in beta.</i><br>Discover, save, and track your consumption of media." %}
+{% include repo_card.html name="RiceballDb" github_link="" website_link="/riceballdb/index.html" description="Discover, save, and track your anime and manga." %}
 {% include repo_list_end.html %}
 
 ## Sample Game Slices ##

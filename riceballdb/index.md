@@ -8,7 +8,7 @@ description: Discover, save, and track your anime and manga.
 
     index.md
 
-    Copyright © 2023 Aditya Bhat. All rights reserved.
+    Copyright © 2024 Aditya Bhat. All rights reserved.
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -23,7 +23,8 @@ description: Discover, save, and track your anime and manga.
 
 {% endcomment %}
 
-_[Join the beta!](https://testflight.apple.com/join/Maejdsvw)_
+{% comment %} commenting the beta link out for now {%endcomment %}
+<!-- _[Join the beta!](https://testflight.apple.com/join/Maejdsvw)_ -->
 
 ### Discover New Anime and Manga ###
 * Looking for new content? Browse anime airing new episodes and manga publishing new chapters.
@@ -43,4 +44,5 @@ _[Join the beta!](https://testflight.apple.com/join/Maejdsvw)_
 * Tap 'Stream...' or 'Read...' to visit your favorite external content providers.¹
 * Head to your profile to see your recent activity and overall stats.
 
-¹ RiceballDb is not a streaming service. RiceballDb does have external links for some content to unaffiliated streaming services and content providers.
+¹ RiceballDb is not a streaming service. RiceballDb does have external links for some content to unaffiliated streaming services and content providers.<br>
+RiceballDb is not affiliated with AniList.co.
